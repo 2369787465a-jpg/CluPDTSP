@@ -1,0 +1,13 @@
+# Store this source release using ordinary Git files.
+* text=auto
+*.py text eol=lf
+*.sh text eol=lf
+*.ps1 text
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.tex text eol=lf
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary

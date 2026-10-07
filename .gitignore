@@ -1,0 +1,53 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.smoke_ablation/
+
+# Local credentials and machine settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+.patch-backups/
+
+# Generated datasets and model weights are not bundled in this source release.
+*.pkl
+*.pt
+*.pth
+*.ckpt
+/checkpoints/**/*
+!/checkpoints/**/
+!/checkpoints/**/args.json
+!/checkpoints/.gitkeep
+
+# Generated runtime output; retain lightweight historical summary tables/figures.
+/result/
+/outputs/
+/logs/
+/results/raw/
+/results/stats/*
+!/results/stats/*summary.tex
+/results/profiling/raw/
+*.pid
+*.logpath
+
+# Manuscript source and private execution/review notes are outside the code release.
+/main.tex
+/responseletter.tex
+/docs/experiment_status.md
+/docs/*audit*.md
