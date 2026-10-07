@@ -15,6 +15,12 @@ CAADRL constructs a short route for a static, single-vehicle Euclidean pickup an
 
 The numerical pipeline includes reproducible instance generation, training, checkpoint evaluation, configurable ablations, a heterogeneous-attention baseline, paired statistical analysis, route diagnostics, and runtime profiling. The problem studied here does not impose vehicle capacity or time-window constraints.
 
+## Model architecture
+
+![CAADRL model architecture reproduced from Figure 2 of the accompanying paper](assets/model-architecture.png)
+
+Model architecture reproduced from Figure 2 of the [accompanying paper](Clupdtsp_main.pdf) (PDF page 10).
+
 ## Included artifacts
 
 This source release includes code, the manuscript PDF, lightweight experiment summaries and figures, and available training configuration files. **Pretrained weights, pregenerated datasets, instance-level results, and runtime logs are not bundled.** The downloaded source contained Git LFS pointer files for these large artifacts; those pointers are omitted because they are not usable weights or data. Generate data and train a model using the commands below before evaluating it.
